@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/nodech/hsd-net-logger/issues"
   },
-  "homepage": "https://github.com/nodech/hsd-net-logger#readme"
+  "homepage": "https://github.com/nodech/hsd-net-logger#readme",
+  "dependencies": {
+    "bfile": "^0.2.2",
+    "hsd": "^2.4.0"
+  }
 }
