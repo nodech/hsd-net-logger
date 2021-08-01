@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nodech/hsd-net-logger#readme",
   "dependencies": {
     "bfile": "^0.2.2",
+    "bsert": "^0.0.10",
     "hsd": "^2.4.0"
   }
 }
