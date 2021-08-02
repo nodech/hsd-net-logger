@@ -36,7 +36,7 @@ This is intended for debug and education purposes only.
   - ``hsd --plugins `pwd` ``
 
 ### Example
-  Lets run the spv in memory:  
+  Lets run the hsd in memory and ignore ping and pong packets:  
  `$ hsd --memory --plugins hsd-net-logger --net-logger-dir=/tmp/hsd-packet-logs --net-logger-skip=ping,pong`  
   After we stop you should see that `/tmp/hsd-packet-logs` folder has been
   created and may look like this:
