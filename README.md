@@ -24,8 +24,8 @@ This is intended for debug and education purposes only.
   - install: `npm i -g hsd-net-logger`
   - Make sure global node_modules resolves hsd-net-logger
     - e.g. You could use `export NODE_PATH=/usr/lib/node_modules` (arch)
-    - asdf example: `export NODE_PATH="$NODE_PATH:\`asdf
-      where nodejs\`/.npm/lib/node_modules"`
+    - asdf example: ``export NODE_PATH="$NODE_PATH:`asdf
+      where nodejs`/.npm/lib/node_modules"``
     - Basically, make sure `node -e 'require("hsd-net-logger")'` does not
       throw an error.
   - run: `hsd --plugins hsd-net-logger`
