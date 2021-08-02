@@ -1,6 +1,6 @@
 {
   "name": "hsd-net-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Log hsd node network message to peers.",
   "main": "lib/index.js",
   "scripts": {
